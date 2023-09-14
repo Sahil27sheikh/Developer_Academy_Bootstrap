@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 600;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: orange; 
+}
+
+.logo{
+    height: 100%;
+    width: 20vh;
+    margin: 0.5vh;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    top: 65px;
+}
+
+.bg-black { 
+    top: 65px;
+    background-color: black;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+}
+
+ 
+ 
