@@ -28,13 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Home</a>
+                            <a class="nav-link " href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Client</a>
+                            <a class="nav-link" href="#footer">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -42,18 +39,21 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Web</a></li>
+                                <li><a class="dropdown-item" href="#">App</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">SEO</a></li>
+                                <li><a class="dropdown-item" href="#">Devops</a></li>
+                                <li><a class="dropdown-item" href="#">Full Stack</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -69,7 +69,7 @@
     <!-- Open Main -->
     <main>
         <!-- slider -->
-        <div class="slider">
+        <div class="slider" id="home">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -188,7 +188,7 @@
             </div>
 
             <!-- Contact -->
-            <div class="row justify-content-evenly pt-2 pb-5" style="background-color: #DEDBD2;">
+            <div class="row justify-content-evenly pt-2 pb-5" id="contact" style="background-color: #DEDBD2;">
 
                 <div class="col-sm-5 mt-5">
                     <h3 class="mb-4">Contact Form</h3>
@@ -237,7 +237,7 @@
 
 
             <!-- FAQ -->
-            <div class="row justify-content-center pt-5 pb-5">
+            <div class="row justify-content-center pt-5 pb-5" id="faq">
                 <div class="col-md-10">
                     <h3 class="text-center pb-4">FAQ</h3>
 
@@ -349,7 +349,7 @@
 
     <!-- Footer Open -->
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid" id="footer">
             <div class="row justify-content-evenly pt-1 pb-5 text-center"
                 style="background-color: #B0C4B1; color: black;">
 
